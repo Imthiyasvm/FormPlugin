@@ -1,0 +1,11 @@
+{
+  "name": "sfcpe-tests",
+  "private": true,
+  "description": "Development-only DOM test dependencies for Smart Form Conditions for Pro Elements.",
+  "scripts": {
+    "test": "node --test js/*.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  }
+}

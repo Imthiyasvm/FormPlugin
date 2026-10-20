@@ -1,0 +1,7 @@
+/* Hide the complete Pro Elements field wrapper, including its label, help text,
+   validation area, and responsive column spacing. The HTML hidden attribute is
+   emitted on first render; this rule also protects against theme overrides. */
+.elementor-form .sfcpe-conditional-field[hidden],
+.elementor-form .sfcpe-conditional-field.sfcpe-field-hidden {
+	display: none !important;
+}
